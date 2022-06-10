@@ -82,15 +82,15 @@ def program():
         ten_point()
     else:
         print("Error! Incorrect Input ---> Rerun the program")
-        clear            
+        clear()            
         quit()
-    clear
+    clear()
 
 # Progress bar because why the hell not!
     with ProgressBar() as pb:
         pb.total = len(orig)
         for _ in range(pb.total):
-            #simulates calculations and stuff
+            # simulates calculations and stuff
             pb.count +=1
             time.sleep(0.09)
 

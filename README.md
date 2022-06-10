@@ -15,6 +15,7 @@ project folder.
 ## Features
 
 PyCurve will perform a few different curves that are common for exams.
+
 1.) Square Root Curve -> sqrt(grade) * 10
 
 2.) Max Score Curve -> Will find the top score and determine what range it falls
